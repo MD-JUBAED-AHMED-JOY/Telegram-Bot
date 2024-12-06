@@ -1,12 +1,9 @@
-module.exports = {
-  config: {
-    name: "info",
-    prefix: "auto",
-    credits: "Joy",
-    aliases: ["info", "details"],
-    permission: 0,
-    description: "Displays detailed information about the admin, bot, and server",
-    tags: ["Utility"],
+module.exports = (bot) => ({
+  name: "info",
+  desc: "Shows info",
+  credit: "JOY",
+  onPrefix: true,
+  cooldowns: 5,
   },
   start: async ({ event, api }) => {
     const { threadId } = event;
