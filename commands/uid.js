@@ -9,6 +9,6 @@ module.exports = (bot) => ({
     const chatId = msg.chat.id;
     const userId = msg.from.id;
 
-    bot.sendMessage(chatId, `Your Telegram user ID is: ${userId}`);
+    bot.sendMessage(chatId, `Bot owner \n MD JUBAED AHMED JOY \n\n Your Telegram user ID is: ${userId}`);
   }
 });
